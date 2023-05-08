@@ -1,7 +1,9 @@
-import React from 'react'
+import React from "react";
 
 export default function Card(props) {
   return (
-    <div className={`${props.className} bg-[#1E213A] w-full`}>{props.children}</div>
-  )
+    <div className={`${props.className} bg-[#1E213A] w-full`}>
+      {props.children}
+    </div>
+  );
 }
