@@ -7,7 +7,7 @@ export default function Location({ weatherData }) {
       <LocationSvg className="w-5 h-5 fill-[#A09FB1]" />
       <p className="ml-1 mb-0">
         {weatherData?.location?.name}, {weatherData?.location?.region} ,{" "}
-        {weatherData?.location?.country}{" "}
+        {weatherData?.location?.country}
       </p>
     </div>
   );

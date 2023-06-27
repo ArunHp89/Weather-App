@@ -66,7 +66,7 @@ export default function SideBar({ weatherData, setLocation, celsius }) {
             ) : null}
           </ColAuto>
           <ColAuto>
-            <Gps />
+            <Gps setLocation={setLocation} showCityList={showCityList} />
           </ColAuto>
         </Row>
         <FullCol className="pt-8 text-center">
